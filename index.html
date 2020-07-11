@@ -15,16 +15,26 @@
 </head>
 
 <body>
-  <div class="location">
-    <h1 class="location-timezone">Timezone</h1>
-    <p>Placeholder</p>
-  </div>
-  <div class="temperature">
-    <div class="degree-section">
-      <h2 class="temperature-degrees">80</h2>
-      <span>Farenheit</span>
-    </div>
-    <div class="temperature-description">Its very hot</div>
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" class="weather-search" placeholder="Search for a City" />
+    </header>
+    <main>
+      <section class="location">
+        <br>
+        <div class="city">City, <span>State</span></div>
+        <br>
+        <div class="date">Date</div>
+      </section>
+      <div class="current">
+        <br>
+        <div class="temperature">Degrees<span>°F</span></div>
+        <br>
+        <div class="weather">Weather</div>
+        <br>
+        <div class="low-high">Low °F / High °F</div>
+      </div>
+    </main>
   </div>
   <script src="app.js"></script>
 </body>
