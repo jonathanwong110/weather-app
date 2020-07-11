@@ -25,20 +25,22 @@ function displayWeather(weather) {
 
   let now = new Date();
   let date = document.querySelector('.location .date');
-  date.innerText = dateBuilder(now);
+  date.innerText = dateBuilder(now)
 
   let temp = document.querySelector('.current .temperature');
-  temp.innerHTML = `${Math.round(weather.main.temp)}<span>°F</span>`;
+  temp.innerHTML = `${Math.round(weather.main.temp)}<span>°F</span>`
+
+  let time = document.querySelector('.current .time')
+  time.innerHTML = "as of" + ' ' + new Date().toLocaleTimeString();
 
   let weather_el = document.querySelector('.current .weather');
   weather_el.innerText = weather.weather[0].main;
 
   let hilow = document.querySelector('.low-high');
   hilow.innerText = `${Math.round(weather.main.temp_min)}°F / ${Math.round(weather.main.temp_max)}°F`;
-
 }
 
-function dateBuilder (d) {
+function dateBuilder(d) {
   let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
