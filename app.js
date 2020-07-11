@@ -19,15 +19,21 @@ function getWeather(query) {
     }).then(displayWeather);
 }
 
+
 function displayWeather(weather) {
   let city = document.querySelector('.location .city');
   city.innerText = `${weather.name}, ${weather.sys.country}`;
+
+  let weatherIcon = document.getElementById('weather-icon');
+  var iconcode = `${weather.weather[0].icon}`;
+  var iconurl = "http://openweathermap.org/img/wn/" + iconcode + ".png";
+  weatherIcon.src = iconurl
 
   let now = new Date();
   let date = document.querySelector('.location .date');
   date.innerText = dateBuilder(now)
 
-  let temp = document.querySelector('.current .temperature');
+  let temp = document.querySelector('.location .temperature');
   temp.innerHTML = `${Math.round(weather.main.temp)}<span>°F</span>`
 
   let time = document.querySelector('.current .time')
@@ -42,12 +48,11 @@ function displayWeather(weather) {
 
 function dateBuilder(d) {
   let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-  let day = days[d.getDay()];
+  
   let date = d.getDate();
   let month = months[d.getMonth()];
   let year = d.getFullYear();
 
-  return `${day} ${month} ${date}, ${year}`;
+  return `${month} ${date}, ${year}`;
 }
+

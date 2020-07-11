@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.app-wrap {
-  justify-content: center;
-  align-items: center;
-}
-
 body {
   height: 100vh;
   display: flex;
@@ -17,8 +12,28 @@ body {
   align-items: center;
   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  color: white;
+  color: black;
   font-weight: bold;
+}
+
+.weather-wrap {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  background: white;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.weather-wrap:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.inside-wrap {
+  margin: 10%;
 }
 
 .weather-search {
@@ -34,6 +49,7 @@ body {
   padding: 12px 20px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
+  margin-left: 20px;
 }
 
 .location .city {
@@ -58,4 +74,79 @@ body {
 
 .low-high {
   font-size: 40px;
+}
+
+.city-and-date{
+  margin-top: 3%;
+  margin-left: 0%;
+  display: inline-block;
+  width: 40%;
+  bottom: auto;
+  margin: 20px;
+}
+
+#weather-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.time {
+  opacity: 0.5;
+}
+
+.current {
+  margin-top: 3%;
+  margin-left: 0%;
+  display: inline-block;
+  width: 40%;
+  bottom: auto;
+  margin: 20px;
+}
+
+@media (max-width: 999px) {
+  .weather-wrap {
+    height: 500px;
+    width: 500px;
+  }
+  .location .city, .location .date, .location .temperature, .current .low-high, .current .low-high, .current .time, .current .weather {
+    font-size: 20px;
+    margin: 5px;
+    white-space: nowrap; 
+  }
+  #weather-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .weather-wrap {
+    height: 650px;
+    width: 650px;
+  }
+  .location .city, .location .date, .location .temperature, .current .low-high, .current .low-high, .current .time, .current .weather {
+    font-size: 28px;
+    margin: 15px;
+    white-space: nowrap; 
+  }
+  #weather-icon {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .weather-wrap {
+    height: 750px;
+    width: 750px;
+  }
+  .location .city, .location .date, .location .temperature, .current .low-high, .current .low-high, .current .time, .current .weather {
+    font-size: 35px;
+    margin: 25px;
+    white-space: nowrap;
+  }
+  #weather-icon {
+    height: 80px;
+    width: 80px;
+  }
 }

@@ -15,27 +15,27 @@
 </head>
 
 <body>
-  <div class="app-wrap">
-    <header>
+  <div class="weather-wrap">
+    <div class="inside-wrap">
       <input type="text" autocomplete="off" class="weather-search" placeholder="Search for a City" />
-    </header>
-    <main>
-      <section class="location">
-        <br>
-        <div class="city">City, <span>Country</span></div>
-        <br>
-        <div class="date">Date</div>
-      </section>
-      <div class="current">
-        <br>
-        <div class="temperature">Degrees<span> °F</span></div>
-        <div class="time">Time</div>
-        <br>
-        <div class="weather">Weather</div>
-        <br>
-        <div class="low-high">Low °F / High °F</div>
-      </div>
-    </main>
+      <main>
+        <section class="location">
+          <div class="city-and-date">
+            <div class="city">City, Country</div>
+            <div class="date">Date</div>
+          </div>
+          <div class="city-and-date">
+            <img id="weather-icon" src="https://www.tsmgi.com/wp-content/uploads/2015/12/White-Background-Square.jpg.jpeg">
+            <div class="temperature">°F</div>
+          </div>
+        </section>
+        <div class="current">
+          <div class="low-high">Low °F / High °F</div>
+          <div class="time">Time</div>
+          <div class="weather">Weather</div>
+        </div>
+      </main>
+    </div>
   </div>
   <script src="app.js"></script>
 </body>
