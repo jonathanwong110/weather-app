@@ -37,8 +37,8 @@ body {
 }
 
 .weather-search {
-  text-align: left;
-  width: auto;
+  width: 85%;
+  text-align: center;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -49,7 +49,7 @@ body {
   padding: 12px 20px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
-  margin-left: 20px;
+  margin-left: 7%;
 }
 
 .location .city {
@@ -82,12 +82,13 @@ body {
   display: inline-block;
   width: 40%;
   bottom: auto;
-  margin: 20px;
+  margin: 4.7%;
 }
 
 #weather-icon {
   height: 100px;
   width: 100px;
+  margin-left: 11%
 }
 
 .time {
@@ -103,13 +104,55 @@ body {
   margin: 20px;
 }
 
-@media (max-width: 619px) {
+@media (max-width: 319px) {
   .weather-wrap {
     height: 85%;
     width: 85%;
   }
-  .weather-search {
-    width: auto;
+  .location .city, .location .date, .location .temperature, .current .low-high, .current .low-high, .current .weather {
+    font-size: 25px;
+    margin: 5px;
+    white-space: nowrap; 
+  }
+  .current {
+    margin: 5px;
+  }
+  .current .time {
+    font-size: 18px;
+    margin: 5px;
+    white-space: nowrap; 
+  }
+  #weather-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (min-width: 320px) {
+  .weather-wrap {
+    height: 85%;
+    width: 85%;
+  }
+  .location .city, .location .date, .location .temperature, .current .low-high, .current .low-high, .current .weather {
+    font-size: 25px;
+    margin: 5px;
+    white-space: nowrap; 
+  }
+  .current .time {
+    font-size: 18px;
+    margin: 5px;
+    white-space: nowrap; 
+  }
+  #weather-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (min-width: 550px) {
+  .weather-wrap {
+    height: 85%;
+    width: 85%;
   }
   .location .city, .location .date, .location .temperature, .current .low-high, .current .low-high, .current .weather {
     font-size: 25px;
@@ -132,6 +175,9 @@ body {
     height: 550px;
     width: 550px;
   }
+  .weather-search {
+    margin-left: 5%;
+  }
   .location .city, .location .date, .location .temperature, .current .low-high, .current .low-high, .current .weather {
     font-size: 25px;
     margin: 5px;
@@ -145,6 +191,7 @@ body {
   #weather-icon {
     height: 50px;
     width: 50px;
+    margin-left: 3%;
   }
 }
 
@@ -166,6 +213,7 @@ body {
   #weather-icon {
     height: 70px;
     width: 70px;
+    margin-left: 7%
   }
 }
 
@@ -175,7 +223,7 @@ body {
     width: 750px;
   }
   .location .city, .location .date, .location .temperature, .current .low-high, .current .low-high, .current .time, .current .weather {
-    font-size: 35px;
+    font-size: 40px;
     margin: 25px;
     white-space: nowrap;
   }
