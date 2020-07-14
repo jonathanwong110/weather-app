@@ -39,7 +39,7 @@ function displayWeather(weather) {
   let time = document.querySelector('.current .time')
   time.innerHTML = "as of" + ' ' + new Date().toLocaleTimeString();
 
-  let weather_el = document.querySelector('.current .weather');
+  let weather_el = document.querySelector('.location .weather');
   weather_el.innerText = weather.weather[0].main;
 
   let hilow = document.querySelector('.low-high');
@@ -48,7 +48,7 @@ function displayWeather(weather) {
 
 function dateBuilder(d) {
   let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  
+
   let date = d.getDate();
   let month = months[d.getMonth()];
   let year = d.getFullYear();
