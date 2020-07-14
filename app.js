@@ -16,7 +16,11 @@ function getWeather(query) {
   fetch(`${api.base}weather?q=${query}&units=imperial&APPID=${api.key}`)
     .then(weather => {
       return weather.json();
-    }).then(displayWeather);
+    }).then(displayWeather)
+    .catch(data => {
+      console.error('Error:', data.message);
+      alert("City not found. Please try again.");
+    });
 }
 
 

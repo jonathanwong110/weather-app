@@ -94,11 +94,26 @@ body {
     height: 85%;
     width: 85%;
   }
-  .location .city, .location .date, .location  .temperature, .location .weather .current .low-high {
-    font-size: 125%;
+  .location .city {
     white-space: nowrap; 
+    font-size: 200%;
   }
-  .time {
+  .location .date {
+    white-space: nowrap; 
+    font-size: 125%;
+  }
+  .location .temperature {
+    font-size: 350%;
+  }
+  .location .weather {
+    font-size: 150%;
+    white-space: nowrap; 
+  }.current .low-high {
+    font-size: 150%;
+    white-space: nowrap;
+  }
+  .current .time {
+    font-size: 125%;
     white-space: nowrap; 
   }
   #weather-icon {
@@ -112,11 +127,26 @@ body {
     height: 85%;
     width: 85%;
   }
-  .location .city, .location .date, .location  .temperature, .location .weather .current .low-high {
-    font-size: 250%;
+  .location .city {
     white-space: nowrap; 
+    font-size: 225%;
   }
-  .time {
+  .location .date {
+    white-space: nowrap; 
+    font-size: 150%;
+  }
+  .location .temperature {
+    font-size: 375%;
+  }
+  .location .weather {
+    font-size: 150%;
+    white-space: nowrap; 
+  }.current .low-high {
+    font-size: 125%;
+    white-space: nowrap;
+  }
+  .current .time {
+    font-size: 175%;
     white-space: nowrap; 
   }
   #weather-icon {
@@ -130,11 +160,26 @@ body {
     height: 85%;
     width: 85%;
   }
-  .location .city, .location .date, .location  .temperature, .location .weather .current .low-high {
-    font-size: 300%;
+  .location .city {
     white-space: nowrap; 
+    font-size: 250%;
+  }
+  .location .date {
+    white-space: nowrap; 
+    font-size: 175%;
+  }
+  .location .temperature {
+    font-size: 400%;
+  }
+  .location .weather {
+    font-size: 175%;
+    white-space: nowrap; 
+  }.current .low-high {
+    font-size: 150%;
+    white-space: nowrap;
   }
   .time {
+    font-size: 175%;
     white-space: nowrap; 
   }
   #weather-icon {
@@ -151,11 +196,26 @@ body {
   .weather-search {
     margin-left: 5%;
   }
-  .location .city, .location .date, .location  .temperature, .location .weather .current .low-high {
-    font-size: 320%;
+  .location .city {
     white-space: nowrap; 
+    font-size: 275%;
   }
-  .time {
+  .location .date {
+    white-space: nowrap; 
+    font-size: 200%;
+  }
+  .location .temperature {
+    font-size: 425%;
+  }
+  .location .weather {
+    font-size: 200%;
+    white-space: nowrap; 
+  }.current .low-high {
+    font-size: 175%;
+    white-space: nowrap;
+  }
+  .current .time {
+    font-size: 150%;
     white-space: nowrap; 
   }
   #weather-icon {
@@ -170,11 +230,26 @@ body {
     height: 85%;
     width: 85%;
   }
-  .location .city, .location .date, .location  .temperature, .location .weather .current .low-high {
+  .location .city {
     white-space: nowrap; 
-    font-size: 400%;
+    font-size: 300%;
   }
-  .time {
+  .location .date {
+    white-space: nowrap; 
+    font-size: 225%;
+  }
+  .location .temperature {
+    font-size: 450%;
+  }
+  .location .weather {
+    font-size: 225%;
+    white-space: nowrap; 
+  }.current .low-high {
+    font-size: 200%;
+    white-space: nowrap;
+  }
+  .current .time {
+    font-size: 175%;
     white-space: nowrap; 
   }
   #weather-icon {
@@ -189,10 +264,26 @@ body {
     height: 750px;
     width: 750px;
   }
-  .location .city, .location .date, .location  .temperature, .location .weather .current .low-high {
+  .location .city {
+    white-space: nowrap; 
+    font-size: 300%;
+  }
+  .location .date {
+    white-space: nowrap; 
+    font-size: 225%;
+  }
+  .location .temperature {
+    font-size: 450%;
+  }
+  .location .weather {
+    font-size: 225%;
+    white-space: nowrap; 
+  }.current .low-high {
+    font-size: 200%;
     white-space: nowrap;
   }
   .time {
+    font-size: 175%;
     white-space: nowrap; 
   }
   #weather-icon {
