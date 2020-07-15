@@ -97,28 +97,35 @@ body {
   .location .city {
     white-space: nowrap; 
     font-size: 200%;
+    margin-top: 5px;
   }
   .location .date {
     white-space: nowrap; 
     font-size: 125%;
+    margin-top: 5px;
   }
   .location .temperature {
-    font-size: 350%;
+    font-size: 250%;
+    margin-top: 5px;
   }
   .location .weather {
     font-size: 150%;
     white-space: nowrap; 
+    margin-top: 5px;
   }.current .low-high {
     font-size: 150%;
     white-space: nowrap;
+    margin-top: 5px;
   }
   .current .time {
     font-size: 125%;
     white-space: nowrap; 
+    margin-top: 5px;
   }
   #weather-icon {
     height: 50px;
     width: 50px;
+    margin-top: 5px;
   }
 }
 
@@ -130,28 +137,36 @@ body {
   .location .city {
     white-space: nowrap; 
     font-size: 225%;
+    margin-top: 5px;
   }
   .location .date {
     white-space: nowrap; 
     font-size: 150%;
+    margin-top: 5px;
   }
   .location .temperature {
-    font-size: 375%;
+    white-space: nowrap;
+    font-size: 275%;
+    margin-top: 5px;
   }
   .location .weather {
     font-size: 150%;
     white-space: nowrap; 
+    margin-top: 5px;
   }.current .low-high {
     font-size: 125%;
     white-space: nowrap;
+    margin-top: 5px;
   }
   .current .time {
     font-size: 175%;
     white-space: nowrap; 
+    margin-top: 5px;
   }
   #weather-icon {
     height: 50px;
     width: 50px;
+    margin-top: 5px;
   }
 }
 
@@ -163,28 +178,35 @@ body {
   .location .city {
     white-space: nowrap; 
     font-size: 250%;
+    margin-top: 15px;
   }
   .location .date {
     white-space: nowrap; 
     font-size: 175%;
+    margin-top: 15px;
   }
   .location .temperature {
     font-size: 400%;
+    margin-top: 15px;
   }
   .location .weather {
     font-size: 175%;
-    white-space: nowrap; 
+    white-space: nowrap;
+    margin-top: 15px;
   }.current .low-high {
     font-size: 150%;
     white-space: nowrap;
+    margin-top: 15px;
   }
   .time {
     font-size: 175%;
-    white-space: nowrap; 
+    white-space: nowrap;
+    margin-top: 15px;
   }
   #weather-icon {
     height: 50px;
     width: 50px;
+    margin-top: 15px;
   }
 }
 
@@ -199,24 +221,30 @@ body {
   .location .city {
     white-space: nowrap; 
     font-size: 275%;
+    margin-top: 20px;
   }
   .location .date {
     white-space: nowrap; 
     font-size: 200%;
+    margin-top: 20px;
   }
   .location .temperature {
     font-size: 425%;
+    margin-top: 20px;
   }
   .location .weather {
     font-size: 200%;
     white-space: nowrap; 
+    margin-top: 20px;
   }.current .low-high {
     font-size: 175%;
     white-space: nowrap;
+    margin-top: 20px;
   }
   .current .time {
     font-size: 150%;
     white-space: nowrap; 
+    margin-top: 20px;
   }
   #weather-icon {
     height: 65px;
@@ -233,29 +261,36 @@ body {
   .location .city {
     white-space: nowrap; 
     font-size: 300%;
+    margin-top: 25px;
   }
   .location .date {
     white-space: nowrap; 
     font-size: 225%;
+    margin-top: 25px;
   }
   .location .temperature {
     font-size: 450%;
+    margin-top: 25px;
   }
   .location .weather {
     font-size: 225%;
     white-space: nowrap; 
+    margin-top: 25px;
   }.current .low-high {
     font-size: 200%;
     white-space: nowrap;
+    margin-top: 25px;
   }
   .current .time {
     font-size: 175%;
     white-space: nowrap; 
+    margin-top: 25px;
   }
   #weather-icon {
     height: 70px;
     width: 70px;
-    margin-right: 5%
+    margin-right: 5%;
+    margin-top: 25px;
   }
 }
 
@@ -267,28 +302,35 @@ body {
   .location .city {
     white-space: nowrap; 
     font-size: 300%;
+    margin-top: 25px;
   }
   .location .date {
     white-space: nowrap; 
     font-size: 225%;
+    margin-top: 25px;
   }
   .location .temperature {
     font-size: 450%;
+    margin-top: 25px;
   }
   .location .weather {
     font-size: 225%;
     white-space: nowrap; 
+    margin-top: 25px;
   }.current .low-high {
     font-size: 200%;
     white-space: nowrap;
+    margin-top: 25px;
   }
   .time {
     font-size: 175%;
     white-space: nowrap; 
+    margin-top: 25px;
   }
   #weather-icon {
     height: 80px;
     width: 80px;
     margin-right: 5%;
+    margin-top: 25px;
   }
 }
